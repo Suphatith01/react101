@@ -2,3 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  body {
+    margin: 0;
+    @apply bg-primaryBg;
+    @apply text-primaryContent;
+    }
+}
